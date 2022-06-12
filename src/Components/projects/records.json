@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "title":"Financial Literacy Web Application",
+        "Description":"Finlit is a web application developed for the purpose of making awareness of Financial Literacy in teenagers. This is story mode fully interactive web application which makes this project unique from other existing solutions.",
+        "techStacks":["Django","HTML","CSS","Bootstrap"],
+        "video":"videos/finlit.mp4",
+        "hostLink":"https://finlit.pythonanywhere.com"
+    },
+    {
+        "id":2,
+        "title":"Online Banking System",
+        "Description":"This project consists many features of Online Banking System such as money transfer, adding data of new users, displaying transaction details, some stats.etc.",
+        "techStacks":["PHP","MySQL","HTML","CSS","Bootstrap"],
+        "video":"videos/obs.mp4",
+        "hostLink":"https://github.com/Atharva1512/pict_bank.git"
+    }
+]

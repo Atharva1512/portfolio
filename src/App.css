@@ -1,0 +1,228 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+  font-style: italic;
+  font-family: 'Lucida Sans';
+  color: white;
+  font-size: large;
+  font-weight: normal;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Franklin Gothic Medium';
+}
+
+
+.navbar-light .navbar-collapse .navbar-nav .nav-link {
+  color: white;
+}
+
+.intro {
+  background-image: url("main.jpg");
+  background-size: cover;
+  padding: 15%;
+
+}
+
+.intro h1 {
+  text-align: center;
+}
+
+#info-container .info {
+  font-family: 'Trebuchet MS';
+  color: rgb(79, 97, 72);
+}
+
+#info-container .info a .btn {
+  margin-top: 2%;
+}
+
+#info-container {
+  width: fit-content;
+  margin-top: 5%;
+  padding: 5%;
+  display: flex;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px 10px rgb(243, 200, 200);
+}
+
+@media screen and (max-width:400px) {
+  #info-container {
+    width: 100%;
+  }
+
+  #info-container .prof_img{
+    background-image: linear-gradient(to bottom, white, rgb(247, 131, 102));
+
+  }
+
+  #info-container .prof_img img{
+    width: 190px;
+    
+  }
+
+
+}
+
+#info-container .prof_img {
+  /* border: 1px solid rgb(235, 160, 160); */
+  border-radius: 40%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 4%;
+  padding-left: 1%;
+  background-image: linear-gradient(to right, white, rgb(247, 131, 102));
+}
+
+.skill-section {
+  margin: 2%;
+  padding: 2%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+
+}
+
+.skill-section .titles {
+  text-align: center;
+  font-family: 'Gill Sans MT';
+  color: brown;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.skill-section .sec1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: larger;
+}
+
+
+.sec2 .card {
+  margin: 20px;
+}
+
+.sec2 .card .card-title {
+  margin: 20px;
+  font-family: Impact;
+}
+
+
+
+.sec2 .card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  border-color: rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px;
+}
+
+#bg-title {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.card-deck {
+  text-align: center;
+}
+
+.card-deck {
+  justify-content: center;
+}
+
+#bg-cards .card {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  min-height: 13rem;
+}
+
+#bg-cards{
+  display: flex;
+  align-items: center;
+}
+
+#bg-cards .card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+#contact-cards .card {
+  border: none;
+  box-shadow: 10px 10px 10px;
+  border-radius: 20px;
+  min-height: 10rem;
+
+}
+#contact-cards{
+  display: flex;
+  align-items: center;
+}
+
+#contact-cards .card:hover {
+  cursor: pointer;
+}
+
+#contact {
+  margin-bottom: 0;
+
+}
+
+
+.allProjects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right,white,rgb(247, 144, 144));
+}
+
+.allProjects .card{
+  margin-top: 100px;
+  width: min-content;
+  text-align: center;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+}
+
+.allProjects .card video{
+  width: 700px;
+  height: 400px;
+}
+
+@media screen and (max-width:400px) {
+  .allProjects .card video{
+    width: 300px;
+    height: 350px;
+  }
+
+  .allProjects .card{
+    width: 320px;
+  }
+
+  .techTable{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.techTable{
+  width: fit-content;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.techTable li{
+  margin: 10px;
+}
+
+.social-link{
+  display: flex;
+  justify-content: center;
+}
+
+.fa{
+
+  background-color: rgb(30, 112, 235);
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  border: 5px solid white;
+}
